@@ -28,9 +28,9 @@ active ,nav ul li :hover
 
 
 .logo{
-    width: 170px;
+    width: 200px;
     margin:auto;
-    margin-left: start;
+    margin-left: 0;
     cursor: pointer;
     padding-left: 40px;
     padding-top: 10px;
@@ -68,7 +68,7 @@ active ,nav ul li :hover
     height: fit-content;
     float: left;
     margin: 10px;
-    margin-top: 16px;
+    margin-top: -15px;
     border-color: black;
   
 }
@@ -77,7 +77,7 @@ active ,nav ul li :hover
     background: transparent;
     border: 1px solid orangered;
     margin:-12px auto;
-    margin-top:16px; 
+    margin-top:-15px; 
     color: black;
     font-size: 12px;
     float: left;
@@ -127,7 +127,7 @@ h2{
     height: 270px;
     background: linear-gradient(to top,black 50%,black 50%);
     position: absolute;  
-    top: 20px;
+    top: 150px;
     left: 870px;
     border-radius: 10px;
     padding:25px ;
@@ -246,7 +246,7 @@ font-weight: bold;
     color: white;
 
   }
-  
+  /*Gallary css style*/
   *{
     margin: 25px;
    }
