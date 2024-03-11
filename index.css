@@ -1,0 +1,156 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman';
+    }
+    h2{
+      text-align: center;
+    }
+    .search-bar{
+        width: 330px;
+        height: fit-content;
+        float: left;
+        margin: 10px;
+        margin-top: 0px;
+        border-color: black;
+      
+    }
+    .btn{
+        font-family: 'Times New Roman';
+        background: transparent;
+        border: 1px solid orangered;
+        margin:-12px auto;
+        margin-top:0px; 
+        color: black;
+        font-size: 12px;
+        float: left;
+        padding:6px;
+       border-radius: 10px;
+    }
+    .form{
+        width: 300px;
+        height: 274px;
+        background: linear-gradient(to top,black 50%,black 50%);
+        position: absolute;  
+        top: 137px;
+        left: 870px;
+        border-radius: 10px;
+        padding:25px ;
+      }
+      .form h2{
+          width: 220px;
+          font-family: sans-serif;
+          text-align: center;
+          color:orangered;
+          font-size: 22px;
+          background-color: white;
+          border-radius: 10px;
+          margin: 2px;
+          padding: 8px;
+      
+      }
+      .form input{
+          width: 240px;
+          height: 35px;
+          margin: auto;
+          background: transparent;
+          border-radius: 1px solid orangered;
+          border-top: none;
+          border-right: none;
+          border-left: none;
+          color: white;
+          font-size: 15px;
+          letter-spacing:  1px; 
+          margin-top: 30px;
+          font-family:sans-serif ;
+      }
+      .form input :focus {
+          outline:none;
+      }
+      ::placeholder{
+          color: white;
+          font-family: Arial;
+      }
+      .btnn{
+        width: 220px;
+        height: 40px;
+        background:orangered;
+        border: none;
+        margin: auto;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        transition: .4s ease;
+      }
+      .btnn:hover{
+        background: white;
+        color: orangered;
+      }
+      .btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+      } 
+    .form .link{
+        font-family: Arial;
+        font-size: 17px;
+        padding-top: 0px;
+        text-align: center;
+      }
+      .form .link a{
+        text-decoration: none;
+        color:orangered;
+      }
+      .liw{
+        padding: top 15px; 
+        padding-bottom: 25px;
+        text-align: center;
+      }
+    icon a{
+        text-decoration: none;
+        color: white;
+       
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+       margin: auto;
+      }
+      
+      .fa:hover {
+        color: orangered;
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        background: blue;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-instagram {
+        background: purple;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-snapchat{
+        background: yellow;
+        color: white;
+      }
+      .fa-skype {
+        background: #00aff0;
+        color: white;
+    
+      }
