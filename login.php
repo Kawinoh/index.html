@@ -25,11 +25,11 @@ if(isset($_POST['login'])){
             header('Location: home.html');
             exit();
         }else{
-            header('Location: index.html');
+            header('Location: register.html');
             exit();
         }
     }else{
-        header('Location: index.html');
+        header('Location: register.html');
         exit();
     }
 }
