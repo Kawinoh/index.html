@@ -25,7 +25,7 @@ if(isset($_POST['login'])){
             header('Location: home.html');
             exit();
         }else{
-            header('Location: register.html');
+            header('Location: index.html');
             exit();
         }
     }else{
