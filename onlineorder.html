@@ -1,27 +1,61 @@
+<?php
+
+session_start();
+include_once 'connect.php';
+$email = $_SESSION['user'];
+ 
+if (isset($_GET['food-type']) && isset($_GET['food-name']) && isset($_GET['price'])) {
+    $food_type = $_GET['food-type'];
+    $food_name = $_GET['food-name'];
+    $price = $_GET['price'];
+
+} 
+   $query = "insert into orders  ";
+
+
+
+?>
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <link rel="stylesheet" href="onlineorder.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="onlineorder.css">
+    <script src="https://kit.fontawesome.com/1cf483120b.js" crossorigin="anonymous"></script>
+     
 </head>
-<body >
+
+<body>
     <h2 style="background-color: grey;color: gold;"> THE G RESTURANT MANAGEMENT SYSTEM</h2>
 
- 
+
     <div class="header">
-       <nav>
-       <ul class="nav-link">
-           <img src="images/logo_trial.png" class="logo">
-           <li><a href="home.html">HOME</a></li>
-           <li>  <a href="AboutUs.html">ABOUT US</a></li>
-           <li> <a href="menu.html">MENU</a></li>
-           <li> <a href="gallery.html">GALLERY</a></li>
-           <li> <a href="onlineorder.html">ONLINE ORDER</a></li>
-       </ul>
-      
+        <nav>
+            <ul class="nav-link">
+                <img src="images/logo_trial.png" class="logo">
+                <li><a href="home.html">HOME</a></li>
+                <li> <a href="AboutUs.html">ABOUT US</a></li>
+                <li> <a href="menu.html">MENU</a></li>
+                <li> <a href="gallery.html">GALLERY</a></li>
+                <li> <a href="onlineorder.html">ONLINE ORDER</a></li>
+            </ul>
+
     </div>
     <p>
-        we strive to offer the best of our services to our costomers by providing quality ans essential services towards the needs of the society.We also ensure that our customers are satisfied with the provided services locally and internatinally.
-    </p>
-<a href="https://www.glovoapp.com"><button class="bbtn">onlineorder</button></a>
+        Expand your covers beyond your restaurant doors and offer more than just reservations. </p>
+    <br>
+    <div>
+     <p> call us on:<a href="tel:+254 115-330-967">+254 115-330-967</a</p>
+        <div>
+     <p>chat us on:</p>
+     
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=+254115330967&text=hello welcome!" class="whatsapp-button"><i
+             class="fab fa-whatsapp"></i></a>
+            </div>
+            <p><a href = "mailto: thegresturant@gmail.com">Send Email</a></p>
+    </div>
 </body>
+<a href="https://www.glovoapp.com"><button class="bbtn">ONLINE ORDER</button>    
+</html>

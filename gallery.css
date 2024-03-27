@@ -59,5 +59,8 @@ active ,nav ul li :hover
     
   }
     
-
+.diet-container
+{
+    display: flex;
+}
 

@@ -1,38 +1,111 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="gallery.css">
 </head>
+
 <body>
     <h2 style="background-color: grey;color: gold;"> THE G RESTURANT MANAGEMENT SYSTEM</h2>
 
- 
+
     <div class="header">
-       <nav>
-       <ul class="nav-link">
-           <img src="images/logo_trial.png" class="logo">
-           <li><a href="home.html">HOME</a></li>
-           <li>  <a href="AboutUs.html">ABOUT US</a></li>
-           <li> <a href="menu.html">MENU</a></li>
-           <li> <a href="gallery.html">GALLERY</a></li>
-           <li> <a href="onlineorder.html">ONLINE ORDER</a></li>
-       </ul>
-      
+        <nav>
+            <ul class="nav-link">
+                <img src="images/logo_trial.png" class="logo">
+                <li><a href="home.html">HOME</a></li>
+                <li> <a href="AboutUs.html">ABOUT US</a></li>
+                <li> <a href="menu.html">MENU</a></li>
+                <li> <a href="gallery.html">GALLERY</a></li>
+                <li> <a href="onlineorder.html">ONLINE ORDER</a></li>
+            </ul>
+
     </div>
     <h3 style="color: red;">GALLERY</h3>
+
     <div class="image">
-   <div class="image">
-     <img   src="images/resturant.jpg" alt="picture0" style="width: 50%; border-radius: 50px;">
-<div class="box">  conference hall</div></div>
-    <img src="images/resturant1.jpg" alt="picture1">
-<img src="images/returant3.jpg" alt="picture2">
- <img src="images/resturant2.jpg" alt="picture3">
-<img src="images/resturant4.jpg" alt="picture4">
-<img src="images/resturant6.jpg" alt="picture5">
-<img src="images/resturant6.jpg" alt="picture6">
-<img src="images/resturant7.jpg" alt="picture7">
-<img src="images/resturant8.jpg" alt="picture8">
+        <img src="images/resturant.jpg" alt="picture0" style="width: 50%; border-radius: 50px;">
+        <div class="box"> conference hall</div>
     </div>
-    
-    
+    <img src="images/resturant1.jpg" alt="picture1">
+    <img src="images/returant3.jpg" alt="picture2">
+    <img src="images/resturant2.jpg" alt="picture3">
+    <img src="images/resturant4.jpg" alt="picture4">
+    <img src="images/resturant6.jpg" alt="picture5">
+    <img src="images/resturant6.jpg" alt="picture6">
+    <img src="images/resturant7.jpg" alt="picture7">
+    <img src="images/resturant8.jpg" alt="picture8">
+    <br>
+    <h3 style="color:red ;">OUR DIETS</h3>
+    <br>
+    <div class="diet-container">
+        <div class="food-item" id="pancakes">
+            <img src="images/pancakes.jpg" alt="pancakes" style="  width:200px; border-radius:20px;">
+            <span>
+                <a href="onlineorder.html?&amp;food-name=pancake&amp;food-type=breakfast&amp;price=100">
+                <h3>Pancake</h3>
+                <p><button type="button">KSH 100</button></p>
+            </span>
+        </div>
+
+        <div class="food-item" id="pizza">
+            <img src="images/pizza.jpg" alt="pizza" style="width:200px;  border-radius:20px;">
+            <span>
+                <a href="onlineorder.html?&amp;food-name=pizza&amp;food-type=snack&amp;price=350">
+                    <h3>Pizza</h3>
+                    <p><button type="button">KSH 350</button></p>
+                </a>
+            </span>
+        </div>
+
+        <div class="food-item" id="pasta">
+            <img src="images/pasta.jpg" alt="pasta" style="width:200px;  border-radius: 20px;">
+            <span>
+                <a href="onlineorder.html?&amp;food-name=pasta&amp;food-type=snack&amp;price=200">
+                <h3>Pasta</h3>
+                <p><button type="button">KSH 200</button></p>
+            </span>
+        </div>
+
+        <div class="food-item" id="meat">
+            <img src="images/meat.jpg" alt="meat" style="width:200px;  border-radius:20px;">
+            <span>
+                <a href="onlineorder.html?&amp;food-name=meat&amp;food-type=protein&amp;price=500">
+                <h3>Meat</h3>
+                <p><button type="button">KSH 500</button></p>
+            </span>
+        </div>
+
+        <div class="food-item" id="sandwich">
+            <img src="images/sandwich.jpg" alt="sandwich" style="width:200px;  border-radius:20px;">
+            <span>
+                <a href="onlineorder.html?&amp;food-name=sandwich&amp;food-type=snack&amp;price=200">
+                <h3>Sandwhich</h3>
+                <p><button type="button">KSH 200</button></p>
+            </span>
+        </div>
+
+        <div class="food-item" id="blueberries">
+            <img src="images/blueberries.jpg" alt="blueberries" style="width:200px;  border-radius:20px;">
+            <span>
+                <a href="onlineorder.html?&amp;food-name=blueberries&amp;food-type=snack&amp;price=100">
+                <h3>Blueberries</h3>
+                <p><button type="button">KSH 100</button></p>
+            </span>
+        </div>
+
+       
+    </div>
+    <div class="food-item"id="vegetable-skewer">
+        <img src="images/vegetable-skewer.jpg" alt="vegetable-skewer" style="width:200px;  border-radius:20px;">
+        <span>
+            <a href="onlineorder.html?&amp;food-name=vegetableskewer&amp;food-type=appetizer&amp;price=100">
+            <h3>Vegetable-skewer</h3>
+            <p><button type="button">KSH 100</button></p>
+        </span>
+    </div>
 </body>
